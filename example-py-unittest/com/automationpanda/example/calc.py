@@ -25,7 +25,7 @@ class Calculator(object):
 
     def divide(self, a, b):
         # automatically raises ZeroDivisionError
-        self._last_answer = a * 1.0 / b
+        self._last_answer = a  / b
         return self.last_answer
 
     def maximum(self, a, b):
