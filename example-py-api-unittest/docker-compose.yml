@@ -1,0 +1,11 @@
+version: '3'
+services:
+   api:
+    image:  'python:3.8.2-buster'
+    working_dir: '/opt/'
+    volumes:
+       - './:/opt/'
+    entrypoint:
+       - './entrypoint.sh'
+    ports:
+       - '5000:5000' 

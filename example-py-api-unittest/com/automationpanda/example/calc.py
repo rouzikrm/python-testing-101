@@ -1,7 +1,5 @@
 """
-This example has doctests in a separate text file.
-Run tests with the "python -m doctest <text file>" command.
-The text file is located at doctests/test_calc_class.txt.
+calc.py contains the Calculator class for testing examples.
 """
 
 
